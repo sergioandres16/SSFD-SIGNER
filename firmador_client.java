@@ -54,29 +54,29 @@ if __name__ == '__main__':
             tipo = input("Ingrese el tipo de producto (de la lista mostrada arriba): ")
             respuesta = enviar_consulta(f"promedio de costos de {tipo}")
             if respuesta:
-                print(f"\nRespuesta del servidor: {respuesta}")
+                print(f"\n===> {respuesta}")
             
         elif opcion == '2':
             respuesta = enviar_consulta("producto mas vendido")
             if respuesta:
-                print(f"\nRespuesta del servidor: {respuesta}")
+                print(f"\n===> {respuesta}")
             
         elif opcion == '3':
             tipo = input("Ingrese el tipo de producto (de la lista mostrada arriba): ")
             respuesta = enviar_consulta(f"desviación estándar de costos de {tipo}")
             if respuesta:
-                print(f"\nRespuesta del servidor: {respuesta}")
+                print(f"\n===> {respuesta}")
             
         elif opcion == '4':
             respuesta = enviar_consulta("mejor canal de venta")
             if respuesta:
-                print(f"\nRespuesta del servidor: {respuesta}")
+                print(f"\n===> {respuesta}")
             
         elif opcion == '5':
             tipo = input("Ingrese el tipo de producto (de la lista mostrada arriba): ")
             respuesta = enviar_consulta(f"distribución de costos de {tipo}")
             if respuesta:
-                print(f"\nRespuesta del servidor: {respuesta}")
+                print(f"\n===> {respuesta}")
             
         else:
             print("Opción no válida. Por favor, intente nuevamente.")
